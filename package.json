@@ -1,31 +1,21 @@
 {
-  "name": "@o2oa/component-tools",
-  "version": "1.0.40",
+  "name": "@o2oa/vue-cli-plugin-o2component-vue2",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "vue": "vue -V"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.o2oa.net:2020/o2oa/o2-component-tools.git"
+    "url": "ssh://git@git.o2oa.net:2020/o2oa/vue-cli-plugin-o2component-vue2.git"
   },
-  "bin": {
-    "o2-cmpt": "bin/o2.js"
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Tommy",
   "license": "MIT",
   "dependencies": {
-    "@vue/cli": "^4.5.14",
-    "chalk": "^4.1.2",
-    "commander": "^8.2.0",
-    "inquirer": "^8.1.5",
-    "lodash": "^4.17.21",
-    "shelljs": "^0.8.4"
-  },
-  "publishConfig": {
-    "access": "public"
+    "axios": "^0.24.0"
   }
 }
